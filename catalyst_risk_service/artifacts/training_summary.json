@@ -1,0 +1,82 @@
+{
+  "saved": {
+    "model": "/mnt/data/catalyst_risk_service/artifacts/model.joblib",
+    "metadata": "/mnt/data/catalyst_risk_service/artifacts/metadata.json"
+  },
+  "metrics": {
+    "train": {
+      "rows": 21019,
+      "positive_share": 0.4677196821923022,
+      "accuracy": 0.9656501260764071,
+      "precision": 0.9357956176442446,
+      "recall": 0.9948123283490998,
+      "f1_score": 0.9644019327482497,
+      "average_precision": 0.998090030834507,
+      "score_mean": 0.4743437893605085
+    },
+    "validation": {
+      "rows": 4503,
+      "positive_share": 0.42704863424383743,
+      "accuracy": 0.882744836775483,
+      "precision": 0.8263921385119326,
+      "recall": 0.9183567342693708,
+      "f1_score": 0.8699507389162562,
+      "average_precision": 0.9159229593506075,
+      "score_mean": 0.3446752068799851
+    },
+    "test": {
+      "rows": 4508,
+      "positive_share": 0.40372670807453415,
+      "accuracy": 0.7996894409937888,
+      "precision": 0.6848045143087464,
+      "recall": 0.9335164835164835,
+      "f1_score": 0.7900488258544525,
+      "average_precision": 0.8219508632372194,
+      "score_mean": 0.3853033289948378
+    },
+    "threshold": 0.37836088469595947,
+    "validation_best_f1": 0.8699507389162562
+  },
+  "top_features": [
+    {
+      "feature": "t_отгона_50",
+      "importance": 0.14627033042979987
+    },
+    {
+      "feature": "t_отгона_10",
+      "importance": 0.13620244003051304
+    },
+    {
+      "feature": "плотность_сырья",
+      "importance": 0.07392788674239992
+    },
+    {
+      "feature": "расход_сырья",
+      "importance": 0.05509801240256231
+    },
+    {
+      "feature": "t_отгона_90",
+      "importance": 0.054668987873776685
+    },
+    {
+      "feature": "расход_сырья_lag6h",
+      "importance": 0.049140582820186046
+    },
+    {
+      "feature": "elapsed_share",
+      "importance": 0.04587875608815114
+    },
+    {
+      "feature": "t_отгона_95",
+      "importance": 0.04477681725492111
+    },
+    {
+      "feature": "elapsed_hours",
+      "importance": 0.044105617693375364
+    },
+    {
+      "feature": "days_since_start",
+      "importance": 0.0432674032936068
+    }
+  ]
+}

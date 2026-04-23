@@ -1,0 +1,7 @@
+﻿rule,rows
+total_before,30030.0
+drop_missing_target,0.0
+drop_missing_dataset_or_datetime,0.0
+drop_all_features_nan,0.0
+total_after,30030.0
+removed_share,0.0
